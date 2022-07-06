@@ -1,13 +1,13 @@
-#include "main.h" 
+#include "main.h"
 
-/** 
- *main - Entry point 
- *Description: Print _putchar and a newline 
- * Return: zero on success 
+/**
+ * main - Entry point
+ * Description: Print _putchar and a newline
+ * Return: zero on success
  */ 
 int main(void)
 {
-	
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
