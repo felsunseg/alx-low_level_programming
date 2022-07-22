@@ -39,12 +39,13 @@ int find_pal(char *s, int f_i, int b_i)
 	else
 		return (find_pal(s, f_i + 1, b_i - 1));
 }
+
 /**
- *  * count_string - count the string.
- *   * @s: string to count.
- *    *
- *     * Return: Int value of the length.
- *      */
+ * count_string - count the string.
+ * * @s: string to count.
+ *
+ * Return: Int value of the length.
+ */
 int count_string(char *s)
 {
 	if (*s)
