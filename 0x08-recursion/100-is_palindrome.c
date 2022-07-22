@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 #include  <stdio.h>
 
 int find_pal(char *s, int f_i, int b_i);
