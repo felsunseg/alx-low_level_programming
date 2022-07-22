@@ -21,6 +21,7 @@ int is_palindrome(char *s)
 	return (find_pal(s, 0, count - 1));
 }
 /**
+ * find_pal - helper for is_palindrom
  * @s: string to check
  * @f_i: front index.
  * @b_i: back index.
